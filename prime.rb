@@ -11,3 +11,5 @@ def prime?(num)
   end
   true
 end
+
+puts Benchmark.measure { "a"*1_000_000 }
