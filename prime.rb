@@ -1,5 +1,3 @@
-require 'benchmark'
-
 def prime?(num)
   if num <= 1 || num == 0 || num == 1
     return false
@@ -12,4 +10,3 @@ def prime?(num)
   true
 end
 
-puts Benchmark.measure { "a"*1_000_000 }
